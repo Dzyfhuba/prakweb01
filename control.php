@@ -8,3 +8,5 @@ $title = "Pretest Praktikum A2-Pagi";
 $home = "index.php";
 $portofolio = "portofolio.php";
 $about = "about.php";
+
+?>
