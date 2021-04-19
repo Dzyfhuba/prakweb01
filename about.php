@@ -18,20 +18,23 @@
     <?php include "navbar.php" ?>
     <h2 style="text-align: center;">About</h2>
     <div class="profile">
-        <img src="images/avatar.png" alt="avatar generic image" class="profile-photo">
+        <img class="profile-image" src=<?php echo "images/".$foto; ?> alt="avatar generic image" class="profile-photo">
         <div class="profile-text">
             <table>
                 <tr>
                     <td><b>Nama</b></td>
-                    <td>: Hafidz Ubaidillah</td>
+                    <td>: </td>
+                    <td><?php echo $nama; ?></td>
                 </tr>
                 <tr>
                     <td><b>Jenis Kelamin</b></td>
-                    <td>: Laki-laki</td>
+                    <td>: </td>
+                    <td><?php echo $jk; ?></td>
                 </tr>
                 <tr>
                     <td><b>Alamat</b></td>
-                    <td>: Pongangan Rejo RT. 04 RW. 03</td>
+                    <td>: </td>
+                    <td><?php echo $alamat.", ".$kecamatan.", ". $kabupaten.", ".$provinsi.", ".$kodepos; ?></td>
                 </tr>
             </table>
         </div>
