@@ -23,7 +23,7 @@ function isActive($target)
 // echo '<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>'
 
 
-// $jumlah_porto = 5;
+$jumlah_porto = 5;
 
 if (isset($_POST['jumlah_porto'])) {
 	$jumlah_porto = $_POST['jumlah_porto'];
