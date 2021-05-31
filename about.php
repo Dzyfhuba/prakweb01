@@ -4,7 +4,7 @@
 <head>
     <?php 
         include "control.php";
-        include "profile.php"
+        include "profile.php";
     ?>
 
     <meta charset="UTF-8">
