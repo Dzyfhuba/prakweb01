@@ -2,7 +2,10 @@
 <html lang="en">
 
 <head>
-    <?php include "control.php" ?>
+    <?php 
+        include "control.php";
+        include "profile.php"
+    ?>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
