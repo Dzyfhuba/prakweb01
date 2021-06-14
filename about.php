@@ -2,8 +2,13 @@
 <html lang="en">
 
 <head>
+<<<<<<< HEAD
     <?php include 'control.php'; ?>
     <?php include 'profile.php'; ?>
+=======
+    <?php include "control.php"?>
+    <?php include "profile.php"?>
+>>>>>>> 4e07312bf8235eb79d8b372a131c0d74d90ac058
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
