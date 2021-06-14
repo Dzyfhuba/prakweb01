@@ -1,8 +1,5 @@
 <?php
 
-
-include("profile.php");
-
 $title = "Pretest Praktikum A2-Pagi";
 $home = "index.php";
 $portofolio = "portofolio.php";
@@ -21,10 +18,3 @@ function isActive($target)
 // echo '<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>';
 // echo '<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>';
 // echo '<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>'
-
-
-$jumlah_porto = 5;
-
-if (isset($_POST['jumlah_porto'])) {
-	$jumlah_porto = $_POST['jumlah_porto'];
-}
